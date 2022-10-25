@@ -8,6 +8,38 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
+		<style>
+		.left ul li a {
+		display:unset;
+    align-items: center;
+    background: #354052;
+    color: white;
+    padding: 15px 10px;
+    font-size: 12px;
+    width: 190px;
+    border-bottom: 1px solid #2b3443;
+}
+.left ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+    width: 100%;
+    border-bottom: 1px solid #2b3443;
+}
+.left ul li:hover,.left ul li:hover .left ul li a{
+background:#2b3443;
+}
+.left ul li a{
+background:transparent;
+width:100%;
+ padding: 10px 10px;
+}
+.left:hover .left ul li{
+display:flex;
+align-items:center;
+vertical-align:middle;
+}
+
+		</style>
     </head>
     <body>
 	<div class="main">
@@ -39,11 +71,11 @@
   <div class="left">
     <ul>
       <li class="menu-heading"><img  src="images/logo-full.svg" class="logo_img"></li>
-      <li><a data-toggle="tab" href="#overview"><img src="images/home.png" class="img_hm"> Overview</a></li>
-      <li><a data-toggle="tab" href="#performance"><img src="images/home.png" class="img_hm"> Performance</a></li>
-      <li><a data-toggle="tab" href="#analytics"><img src="images/home.png" class="img_hm"> Analytics</a></li>
-      <li><a data-toggle="tab" href="#landing"><img src="images/home.png" class="img_hm"> Landing</a></li>
-      <li><a data-toggle="tab" href="#projects"><img src="images/home.png" class="img_hm"> Projects</a></li>
+      <li><a data-toggle="tab" href="#overview"><img src="images/home.png" class="img_hm"> <span class="">Overview</span></a></li>
+      <li><a data-toggle="tab" href="#performance"><img src="images/home.png" class="img_hm"> <span class="">Overview</span></a></li>
+      <li><a data-toggle="tab" href="#analytics"><img src="images/home.png" class="img_hm"> <span class="">Overview</span></a></li>
+      <li><a data-toggle="tab" href="#landing"><img src="images/home.png" class="img_hm"> <span class="">Overview</span></a></li>
+      <li><a data-toggle="tab" href="#projects"><img src="images/home.png" class="img_hm"> <span class="">Overview</span></a></li>
     
     </ul>
   </div>
