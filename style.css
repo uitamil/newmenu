@@ -2088,6 +2088,11 @@ li.user_profile {
 }
 }
 @media only screen and (min-width:320px) and (max-width:767px){
+	.left ul {
+    padding-left: 0;
+    margin-top: 0px;
+    overflow-y: scroll;
+}
 .header_prt .logo {
     width: 90%;
     float: left;
