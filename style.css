@@ -2045,3 +2045,57 @@ button.rech {
     border: 1px solid blue;
     padding: 10px 10px;
 }
+
+
+
+@media only screen and (max-width:1240px) and (min-width: 992px){
+	.header_prt .logo {
+    width: 18%;
+}
+.header_prt .logo img{
+	width:155px;
+}
+ul.menu li {
+    padding: 0px 2px;
+}
+}
+
+@media only screen and (max-width:991px) and (min-width: 768px){
+.header_prt .logo {
+    width: 18%;
+}
+.header_prt .logo img{
+	width:130px;
+}
+ul.menu li {
+    padding: 0px 2px;
+}
+ul.menu {
+    text-align: left;
+}
+button.rech {
+    padding: 5px 5px;
+}
+li.rup img, li.excl img, .refresh img, li.notifi img {
+    width: 15px;
+}
+button.rech img {
+    width: 12px;
+}
+
+li.user_profile {
+    padding-top: 30px !important;
+}
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+  ul.menu {
+    text-align: center;
+  }
+  ul.menu li{
+    margin-bottom: 20px;
+  }
+  ul.dropdown-menu {
+    top: 176px;
+    right: 90px;
+  }
+}
